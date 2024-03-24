@@ -1,0 +1,24 @@
+.housing-item {
+    position: relative;
+    display: inline-block; /* Pour que les éléments s'affichent sur la même ligne */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.housing-item img {
+    width: 100%; /* Pour que l'image occupe toute la largeur de son conteneur */
+    height: 100%; /* Pour conserver les proportions de l'image */
+    object-fit: cover;
+}
+
+.housing-item h2 {
+    position: absolute;
+    color: white;
+    bottom: 10px; /* Place le titre à 10px du bas de l'image */
+    left: 0; /* Aligne le titre sur le côté gauche de l'image */
+    padding: 10px; /* Ajoute un peu d'espace autour du texte */
+    margin: 0; /* Supprime toute marge par défaut */
+    width: 100%; /* Fait en sorte que le titre occupe toute la largeur de l'image */
+    box-sizing: border-box; /* Inclut la largeur du padding dans la largeur totale du titre */
+    font-size: 15px;
+}

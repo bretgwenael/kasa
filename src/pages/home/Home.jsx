@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
+import HousingItems from '../../components/housing/HousingItems';
+import housingList from '../../data/housingList.json';
 import './home.css';
 
 function Home() {
   return (
-    <div className="okay">
-      <h1>Bienvenue sur la page d'accueil !</h1>
-      <p>C'est ici que vous pouvez afficher du contenu pour la page d'accueil de votre application.</p>
+    <div className="home">
+      {housingList.map((housing) => (
+        <HousingItems key={housing.id} housing={housing} />
+      ))}
     </div>
   );
 }
