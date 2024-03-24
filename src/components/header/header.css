@@ -5,16 +5,18 @@
     padding: 1rem;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
   }
   
   .logo {
     width: 100px;
+    padding: 0 70px;
   }
   
   .nav-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 70px;  
   }
   
   .nav-item {

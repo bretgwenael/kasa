@@ -1,0 +1,29 @@
+.banner {
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 80px;
+    margin-top: 30px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-radius: 15px;
+    filter: brightness(0.5);
+  }
+  
+  .banner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-align: center; /* Centre le texte horizontalement */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
