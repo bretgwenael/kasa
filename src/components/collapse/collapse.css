@@ -1,3 +1,41 @@
-.about-select {
-    height: 200px;
+.wrapper {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75vw;
+}
+
+
+.title {
+    background: #FF6060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    height: 50px;
+}
+
+.content {
+    color: black;
+    background-color: white;
+    max-height: 0;
+    margin: 10px;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
 }
