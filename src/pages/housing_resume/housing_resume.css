@@ -1,0 +1,10 @@
+.accomodation_collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.accomodation_collapse_item {
+    width: 50%;
+}

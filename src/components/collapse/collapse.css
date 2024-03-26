@@ -1,20 +1,4 @@
-.wrapper {
-    display: flex;
-    height: 60vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-
-.accordion {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 75vw;
-}
-
-
-.title {
+.collapse_title {
     background: #FF6060;
     color: white;
     padding: 10px 20px;
@@ -22,19 +6,18 @@
     display: flex;
     justify-content: space-between;   
     align-items: center;
-    height: 50px;
+    height: 40px;
 }
 
-.content {
+.collapse_content {
     color: black;
     background-color: white;
     max-height: 0;
-    margin: 10px;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
-.content.show {
+.collapse_content_hidden {
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
