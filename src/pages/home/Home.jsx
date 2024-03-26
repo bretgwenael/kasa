@@ -7,7 +7,7 @@ import './home.css';
 function Home() {
   return (
     <div className='home-container'>
-      <Banner />
+      <Banner page="home" />
       <div className="home">
         {housingList.map((housing) => (
           <HousingItems key={housing.id} housing={housing} />

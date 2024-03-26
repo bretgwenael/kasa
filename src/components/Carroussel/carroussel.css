@@ -1,0 +1,46 @@
+.accomodation_carroussel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    max-width: 1200px;
+  }
+  
+  .img-slider {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img-slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: white; 
+    font-size: 5rem; 
+    padding: 20px; 
+    cursor: pointer;
+  }
+
+  .img-slider-btn.left {
+    left: 0;
+  }
+  
+  .img-slider-btn.right {
+    right: 0; 
+  }
+.image-index {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    bottom: 0;
+    left: 48%;
+    transform: translateY(-100%);
+}

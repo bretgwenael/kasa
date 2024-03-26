@@ -7,7 +7,7 @@ import "./about.css";
 function About() {
   return (
     <div>
-      <Banner />
+      <Banner page="about" />
       <div className="wrapper">
         <div className="about_main">
           {aboutList.map(item => {

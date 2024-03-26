@@ -2,8 +2,10 @@
 color: red;
 }
 
-
-
 .star-empty {
 color: grey;
+}
+
+.rating_box {
+    padding-top: 50px;
 }

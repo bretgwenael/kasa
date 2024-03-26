@@ -4,6 +4,7 @@ import Rating from "../../components/Rating/rating";
 import Collapse from '../../components/collapse/Collapse';
 import HousingList from "../../data/housingList.json";
 import "./housing_resume.css";
+import Carroussel from '../../components/Carroussel/carroussel';
 
 
 function Housing_resume() {
@@ -11,12 +12,16 @@ function Housing_resume() {
   const { id } = useParams();
   const dataCurrentHousing = HousingList.find(data => data.id === id);
 
+  const pictures = dataCurrentHousing.pictures;
   const rating = dataCurrentHousing.rating;
   const description = dataCurrentHousing.description;
 	const equipments = dataCurrentHousing.equipments;
 
   return (
     <div>
+      <div>
+        <Carroussel pictures={pictures}/>
+      </div>
       <div>
         <Rating rating={rating}/>
       </div>

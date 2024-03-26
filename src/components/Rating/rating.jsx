@@ -5,7 +5,7 @@ import "./rating.css";
 function Rating({ rating }) {
 
     return (
-        <div>
+        <div className='rating_box'>
             {[...Array(5)].map((star, index) => {
                 const ratingValue = index + 1;
                 return (
