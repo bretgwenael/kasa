@@ -25,14 +25,14 @@ function Housing_resume() {
 	const equipments = dataCurrentHousing.equipments;
 
   return (
-          <div>
+          <div className='main-housing'>
               <div >
                   <Carroussel pictures={pictures}/>
               </div>
             <div className='block-info'>
                 <div className='block-name-location-tags'>
-                    <h1>{title}</h1>
-                    <p>{location}</p>
+                    <h1 style={{color:'#FF6060'}}>{title}</h1>
+                    <p><strong>{location}</strong></p>
                     <Tags tags={tags}/>
                 </div>
               <div className='block-card-rating'>

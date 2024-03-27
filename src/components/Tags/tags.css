@@ -7,6 +7,10 @@
 .tag {
     color: white;
     background: #FF6060;
-    padding: 10px 20px;
+    padding: 5px 30px;
     border-radius: 10px;
+    font-size: 15px;
+    height: 25px;
+    margin-top: 15px;
+    white-space: nowrap;
 }

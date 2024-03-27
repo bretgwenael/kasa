@@ -20,5 +20,6 @@
 .collapse_content_hidden {
     height: auto;
     max-height: 9999px;
+    margin: 15px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
