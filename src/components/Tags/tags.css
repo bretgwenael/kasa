@@ -1,0 +1,12 @@
+.tags-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tag {
+    color: white;
+    background: #FF6060;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

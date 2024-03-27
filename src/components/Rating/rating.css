@@ -3,9 +3,11 @@ color: red;
 }
 
 .star-empty {
-color: grey;
+color: lightgray;
 }
 
 .rating_box {
-    padding-top: 50px;
+    display: flex;
+    padding-top: 20px;
+    gap: 5px;
 }

@@ -9,5 +9,22 @@
     width: 50%;
 }
 
+.block-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
+.block-card-rating {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
+.block-name-location-tags {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}

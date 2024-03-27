@@ -1,0 +1,18 @@
+.img-profil {
+    width: 64px;
+    border-radius: 100px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.name-container {
+    margin-right: 10px; /* Marge entre les noms et l'image */
+}
+
+.card-name {
+    margin: 0;
+    color: red;
+}
