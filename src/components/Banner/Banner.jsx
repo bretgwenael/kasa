@@ -12,7 +12,7 @@ function Banner({ page }) {
     return (
         <div className='banner'>
             <img src={image} alt="Banner" />
-            {showParagraph && <p>Chez vous, partout et ailleurs.</p>}
+            {showParagraph && <p>Chez vous, partout et ailleurs</p>}
         </div>
     )
 }

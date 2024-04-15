@@ -1,6 +1,6 @@
 .footer {
-    background-color: #000000; /* Couleur de fond noire */
-    color: #ffffff; /* Couleur du texte blanc */
+    background-color: #000000;
+    color: #ffffff; 
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
     bottom: 0;
     width: 100%;
     padding-top: 40px;
+    box-sizing: border-box;
   }
   
   .logo {
@@ -18,4 +19,16 @@
   
   .copyright p {
     margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 50px;
+      width: 100%;
+    }
+    
+    .copyright p {
+      text-align: center;
+      max-width: 150px;
+    }
   }

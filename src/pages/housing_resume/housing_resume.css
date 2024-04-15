@@ -38,3 +38,32 @@
 .main-housing {
     margin: 30px 80px;
 }
+
+@media only screen and (max-width: 768px) {
+    .block-info {
+        flex-direction: column;
+    }
+
+    .block-card-rating {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .accomodation_collapse {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0px;
+    }
+
+    .accomodation_collapse_item {
+        width: 100%;
+    }
+
+    .main-housing {
+        margin: 20px;
+    }
+  }

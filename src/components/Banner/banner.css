@@ -5,7 +5,6 @@
     position: relative;
     box-sizing: border-box;
     padding: 0 80px;
-    margin-top: 30px;
   }
   
   .banner img {
@@ -21,10 +20,25 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
     text-align: center; 
     color: white;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
-    width: 80%;
+    width: 100%;
+    margin: 0;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .banner {
+      padding: 20px;
+    }
+
+    .banner p {
+      text-align: left;
+      left: 170px;
+      width: 270px;
+      font-size: 32px;
+    }
+}
