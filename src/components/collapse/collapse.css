@@ -13,13 +13,14 @@
     color: black;
     background-color: white;
     max-height: 0;
+    margin: 15px;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
+    transition: max-height 0.8s ease;
 }
 
 .collapse_content_hidden {
     height: auto;
-    max-height: 9999px;
+    max-height: 200px;
     margin: 15px;
-    transition: all 0.5s cubic-bezier(0,1,0,1);
+    transition: max-height 0.8s ease;
 }
