@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+
+.about_main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .about_main {
+    width: auto;
+    margin: 15px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+}
+  

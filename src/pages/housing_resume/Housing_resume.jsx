@@ -40,7 +40,7 @@ function Housing_resume() {
             <div className='block-info'>
                 <div className='block-name-location-tags'>
                     <h1 style={{color:'#FF6060'}}>{title}</h1>
-                    <p><strong>{location}</strong></p>
+                    <p>{location}</p>
                     <Tags tags={tags}/>
                 </div>
               <div className='block-card-rating'>

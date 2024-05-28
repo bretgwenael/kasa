@@ -2,7 +2,7 @@ import React from "react";
 import Collapse from "../../components/collapse/Collapse";
 import Banner from "../../components/Banner/Banner";
 import aboutList from "../../data/aboutList.json";
-import "./about.scss";
+import "./about.css";
 
 function About() {
   return (

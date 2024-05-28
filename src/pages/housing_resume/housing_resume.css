@@ -31,6 +31,18 @@
     margin-top: 20px;
 }
 
+.block-name-location-tags h1{
+   font-size: 36px;
+   font-weight: 500;
+}
+
+.block-name-location-tags p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+ }
+
 .block-name-location-tags > * {
     margin: 0;
 }
@@ -44,11 +56,20 @@
         flex-direction: column;
     }
 
+    .block-name-location-tags {
+        width: 100%;
+    }
+
+    .block-name-location-tags p{
+        padding-top: 10px;   
+     }
+
     .block-card-rating {
         display: flex;
         width: 100%;
         flex-direction: row-reverse;
         justify-content: space-between;
+        margin-bottom: 5px;
     }
 
     .accomodation_collapse {
